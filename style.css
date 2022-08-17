@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto Mono', monospace;
+   scroll-behavior: smooth;
+   
+   
+}
+
+
+/*------------ 
+header color : #212336
+main color : #23263a
+second color : #fe4956
+Font Picker
+Font name: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif
+--------------*/
+header{
+    height: 10vh !important;
+    padding: 10px 0 !important;
+    background-color: #212336 !important ;
+}
+section,footer{
+    background-color:#23263a ;
+   
+}
+.back{
+   background-color:  #292c3d !important;
+}
+main{
+    background-color:#23263a ;
+
+}
+.navbar{
+    background-color: #212336 !important ;
+}
+.letter{
+    color:#fe4956 !important;
+}
+
+.hover:hover {
+    color: #fe4956 !important;
+}
+
+.circle-fill{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #fe4956;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    border: 2px solid #fe4956;
+}
+
+.line{
+    width: 70px;
+    height: 1px;
+    background-color: white;
+}
+
+.custom-scroll{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 55%;
+    right: -100px;
+}
+
+.f:hover{
+    color: blue !important;
+}
+.i:hover{
+    color: orange !important;
+}
+.l:hover{
+    color: aquamarine !important;
+}
+.m:hover{
+    color: red !important;
+}
+.custom-img{
+    border-radius: 150px !important;
+}
+.halfLine{
+    height: 3px;
+    width: 5%;
+    background-color: #fe4956;
+}
+
+
+
+
+  textarea {
+    resize: none;
+ }
+  /*animated skills bar __________*/
+
+ #myBtn{
+    display: none;/* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10%; /* Place the button at the bottom of the page */
+    right: 5%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; 
+ }
+
+ @media screen and (max-width:510px){
+  #myBtn,
+  .hide{
+    display: none !important;
+  }
+  .home__btn{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 10px ;
+    padding: 10px;
+    width: 100%;
+  }
+  .service-item{
+    width: 96%;
+    padding: 10px;
+  }
+  .shake{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px !important;
+    margin: 5px !important;
+  }
+  .portfolio-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-img{
+    width: 100% !important;
+  }
+  #about{
+    height: 100vh;
+  }
+
+
+  .mob-flex div div {
+    padding: 5px !important;
+    margin: 5px !important;
+  }
+.footer-items{
+  justify-content: center !important;
+  margin-top: 20px;
+}
+#navbarNav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #212336;
+  margin-top: 50px;
+  width: 100%;
+}
+ }
